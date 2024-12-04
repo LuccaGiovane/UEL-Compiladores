@@ -6,7 +6,7 @@
  ![C](https://img.shields.io/badge/C-grey)
  ![Flex](https://img.shields.io/badge/Flex-green)
  ![Bison](https://img.shields.io/badge/Bison-grey)
-<div>
+</div>
 
 Este repositório contém os projetos realizados durante a disciplina de **Compiladores** no curso de Ciência da Computação da Universidade Estadual de Londrina. A disciplina está sendo cursada no **1º e 2º semestre**, e os projetos são divididos em diferentes etapas, cada uma focada em aprender e aplicar técnicas de compilação e análise lexical, sintática e semântica.
 
