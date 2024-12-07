@@ -8,7 +8,7 @@
  ![Bison](https://img.shields.io/badge/Bison-grey)
 </div>
 
-Este repositório contém os projetos realizados durante a disciplina de **Compiladores** no curso de Ciência da Computação da Universidade Estadual de Londrina. A disciplina está sendo cursada no **1º e 2º semestre**, e os projetos são divididos em diferentes etapas, cada uma focada em aprender e aplicar técnicas de compilação e análise lexical, sintática e semântica.
+Este repositório contém os projetos realizados durante a disciplina de **Compiladores** no curso de Ciência da Computação da Universidade Estadual de Londrina. A disciplina está sendo cursada no **5º e 6º semestre** do curso, e os projetos são divididos em diferentes etapas, cada uma focada em aprender e aplicar técnicas de compilação e análise lexical, sintática e semântica.
 
 ## Estrutura do Repositório
 
@@ -17,16 +17,16 @@ A estrutura do repositório é organizada da seguinte maneira:
 - **/[1 Semestre](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/1%20Semestre)**
   
   - /[Lexico](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/1%20Semestre/Lexico)
-    <br>Utilizando Flex na linguagem C, foi implementado um analisador **léxico** para um subconjunto de tokens da linguagem C.<br>
-    [documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/1%20Semestre/Lexico/AnalisadorLexico.pdf)
+    <br>Utilizando Flex na linguagem C, foi implementado um analisador **léxico** para um subconjunto de tokens da linguagem C.
+    [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/1%20Semestre/Lexico/AnalisadorLexico.pdf)]
    
   - /[Sintatico](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/1%20Semestre/Sintatico)
     <br>Utilizando a ferramenta Bison, foi implementado um analisador **sintatico** para um subconjunto da linguagem C.<br>
-    [documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/1%20Semestre/Sintatico/AnalisadorSintatico.pdf)
+    [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/1%20Semestre/Sintatico/AnalisadorSintatico.pdf)]
     
   - /[Portugol](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/1%20Semestre/Portugol)
     <br>Mini compilador para a pseudolinguagem **Portugol**.<br>
-    [documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/1%20Semestre/Portugol/T1%20-%20Portugol.pdf)
+    [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/1%20Semestre/Portugol/T1%20-%20Portugol.pdf)]
 
   - /[Teoricos](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/1%20Semestre/Teoricos)
     <br>Listas teóricas feitas durante o 1º semestre do curso.
@@ -39,9 +39,9 @@ A estrutura do repositório é organizada da seguinte maneira:
 - **/[2 Semestre](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre)**
   
   - /[DCMAT](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/DCMAT)
-    <br>Através do emprego de técnicas de construção de compiladores, o objetivo deste trabalho é desenvolverum simples software matemático, que seja capaz de gerar gráficos,
+    <br>Através do emprego de técnicas de construção de compiladores, o objetivo deste trabalho é desenvolver um simples software matemático, que seja capaz de gerar gráficos,
     resolver expressões, calcular integrais e somatórios além de realizar operações básicas com matrizes.<br>
-    [documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/DCMAT/DCMAT.pdf)
+    [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/DCMAT/DCMAT.pdf)]
 
   - /[Praticos](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Praticos/Lista%2018)
     <br>Exercícios práticos feitos durante o 1º semestre do curso.
