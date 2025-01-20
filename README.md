@@ -42,21 +42,25 @@ UEL-Compiladores/
     │
     ├── DCMAT/
     │   ├── DCMAT.pdf
-    │   └──  < T1 - DCMAT >
+    │   └── < T1 - DCMAT >
     │
     ├── Regalloc/
     │   ├── Regalloc.pdf
-    │   └──  < T2 - Regalloc >
+    │   └── < T2 - Regalloc >
+    │
+    ├── LinearScan/
+    │   ├── LinearScn.pdf
+    │   └── < T3 - LinearScan >
     │
     ├── Gerador/
     │   ├── GeradorCodigo.pdf
-    │   └──  < Gerador de código >
+    │   └── < Gerador de código >
     │
     ├── Teoricos/
-    │   └──  < Listas teóricas >
+    │   └── < Listas teóricas >
     │
-    └──  Praticos/
-        └──  < Exercícios práticos >
+    └── Praticos/
+        └── < Exercícios práticos >
 ```
 
 
@@ -84,14 +88,18 @@ UEL-Compiladores/
 
 - **[2 Semestre](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre)**
   
-  - [DCMAT](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/DCMAT)
-    <br>Através do emprego de técnicas de construção de compiladores, o objetivo deste trabalho é desenvolver um simples software matemático, que seja capaz de gerar gráficos,
-    resolver expressões, calcular integrais e somatórios além de realizar operações básicas com matrizes.
-    [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/DCMAT/DCMAT.pdf)]
+   - [DCMAT](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/DCMAT)
+     <br>Através do emprego de técnicas de construção de compiladores, o objetivo deste trabalho é desenvolver um simples software matemático, que seja capaz de gerar gráficos,
+     resolver expressões, calcular integrais e somatórios além de realizar operações básicas com matrizes.
+     [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/DCMAT/DCMAT.pdf)]
     
-  - [REGALLOC](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Regalloc)
+   - [Regalloc](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Regalloc)
      <br>Programa que realiza a leitura de arquivos que contêm grafos de interferência e tenta alocar registradores através da técnica de coloração de grafos.
      [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/Regalloc/T2%20-%20RegAlloc.pdf)]
+
+   - [Linear Scan](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/LinearScan)
+     <br>Programa que realiza a leitura de arquivos que contêm uma lista de tempos de vida e tenta alocar registradores através da técnica de Linear Scan.
+     [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/LinearScan/T3%20-%20LinearScan.pdf)]
  
    - [Gerador de Códigos](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Gerador)
      <br>Implementação de um programa que recebe como entrada arquivos que contêm representações lineares de árvores sintáticas abstratas e gera o código *assembly* equivalente.
@@ -105,7 +113,3 @@ UEL-Compiladores/
 
 
 <br>
-
-## Objetivo da Disciplina
-
-O objetivo principal da disciplina é aprender como funcionam os compiladores, desde a leitura do código fonte até a geração de código de máquina.
