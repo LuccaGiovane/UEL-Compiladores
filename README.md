@@ -16,42 +16,47 @@ A estrutura do repositório é organizada da seguinte maneira:
 ```bash
 UEL-Compiladores/
 │
+├── README.md
+│
 ├── 1 Semestre/
+│   │
 │   ├── Lexico/
 │   │   ├── AnalisadorLexico.pdf
-│   │   ├── <arquivos do analisador léxico>
+│   │   └── < T1 - léxico >
 │   │
 │   ├── Sintatico/
 │   │   ├── AnalisadorSintatico.pdf
-│   │   ├── <arquivos do analisador sintático>
+│   │   └── < T2 - sintático >
 │   │
 │   ├── Portugol/
-│   │   ├── T1 - Portugol.pdf
-│   │   ├── <arquivos do compilador Portugol>
+│   │   ├── Portugol.pdf
+│   │   └── < Portugol >
 │   │
 │   ├── Teoricos/
-│   │   ├── <listas teóricas>
+│   │   └── < Listas teóricas >
 │   │
-│   ├── Praticos/
-│       ├── <exercícios práticos>
+│   └── Praticos/
+│       └── < Exercícios práticos >
 │
-├── 2 Semestre/
-│   ├── DCMAT/
-│   │   ├── DCMAT.pdf
-│   │   ├── <arquivos do projeto DCMAT>
-│   │
-│   ├── Gerador/
-│   │   ├── GeradorCodigo.pdf
-│   │   ├── <arquivos do gerador de código>
-│   │
-│   ├── Teoricos/
-│   │   ├── <listas teóricas>
-│   │
-│   ├── Praticos/
-│       ├── Lista 18/
-│           ├── <exercícios práticos>
-│
-└── README.md
+└── 2 Semestre/
+    │
+    ├── DCMAT/
+    │   ├── DCMAT.pdf
+    │   └──  < T1 - DCMAT >
+    │
+    ├── Regalloc/
+    │   ├── Regalloc.pdf
+    │   └──  < T2 - Regalloc >
+    │
+    ├── Gerador/
+    │   ├── GeradorCodigo.pdf
+    │   └──  < Gerador de código >
+    │
+    ├── Teoricos/
+    │   └──  < Listas teóricas >
+    │
+    └──  Praticos/
+        └──  < Exercícios práticos >
 ```
 
 
@@ -83,16 +88,20 @@ UEL-Compiladores/
     <br>Através do emprego de técnicas de construção de compiladores, o objetivo deste trabalho é desenvolver um simples software matemático, que seja capaz de gerar gráficos,
     resolver expressões, calcular integrais e somatórios além de realizar operações básicas com matrizes.
     [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/DCMAT/DCMAT.pdf)]
-
-  - [Gerador de Códigos](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Gerador)
-    <br>Implementação de um programa que recebe como entrada arquivos que contêm representações lineares de árvores sintáticas abstratas e gera o código *assembly* equivalente.
-    [[Documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/Gerador/GeradorCodigo.pdf)]
-
-  - [Teoricos](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Teoricos)
-    <br>Listas teóricas feitas durante o 2º semestre do curso.
-
-  - [Praticos](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Praticos/Lista%2018)
-    <br>Exercícios práticos feitos durante o 2º semestre do curso.
+    
+  - [REGALLOC](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Regalloc)
+     <br>Programa que realiza a leitura de arquivos que contêm grafos de interferência e tenta alocar registradores através da técnica de coloração de grafos.
+     [[documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/Regalloc/T2%20-%20RegAlloc.pdf)]
+ 
+   - [Gerador de Códigos](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Gerador)
+     <br>Implementação de um programa que recebe como entrada arquivos que contêm representações lineares de árvores sintáticas abstratas e gera o código *assembly* equivalente.
+     [[Documentação](https://github.com/LuccaGiovane/UEL-Compiladores/blob/main/2%20Semestre/Gerador/GeradorCodigo.pdf)]
+ 
+   - [Teoricos](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Teoricos)
+     <br>Listas teóricas feitas durante o 2º semestre do curso.
+ 
+   - [Praticos](https://github.com/LuccaGiovane/UEL-Compiladores/tree/main/2%20Semestre/Praticos/Lista%2018)
+     <br>Exercícios práticos feitos durante o 2º semestre do curso.
 
 
 <br>
