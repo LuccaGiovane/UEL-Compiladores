@@ -10,9 +10,9 @@ EXEC = regalloc
 CXX = g++
 CXXFLAGS = -Wall -Wextra -O2 -std=c++11
 
-# Fontes e cabeçalhos atualizados para português
-SOURCES = Grafo.cpp NoGrafo.cpp regalloc.cpp Utilitarios_string.cpp
-HEADERS = Grafo.h NoGrafo.h Utilitarios_string.h
+# Fontes e cabeçalhos atualizados
+SOURCES = Grafo.cpp NoGrafo.cpp regalloc.cpp Utilitarios_string.cpp Algoritmos.cpp Auxiliares.cpp
+HEADERS = Grafo.h NoGrafo.h Utilitarios_string.h Algoritmos.h Auxiliares.h
 
 # Alvo que gera o executável
 all: $(EXEC)
